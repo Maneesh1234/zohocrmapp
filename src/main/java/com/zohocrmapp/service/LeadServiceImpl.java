@@ -34,5 +34,12 @@ public class LeadServiceImpl implements LeadService {
 		List<Lead> lead = leadRepo.findAll();
 		return lead;
 	}
+	
+	//mine
+	@Override
+	public Lead findLeadByEmail(String email) {
+		Lead lead = leadRepo.findByEmail(email);
+		return lead;
+	}
 
 }

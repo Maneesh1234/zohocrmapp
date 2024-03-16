@@ -7,10 +7,19 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<style type="text/css">
+table, th, td {
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
 </head>
 <body>
 <a href="viewCreateLead">Add new list</a>
- <table>
+
+ <table >
       
         <tr>
         <th>FirstName</th>
@@ -31,5 +40,6 @@
               </tr>
               </c:forEach>
         </table>
+
 </body>
 </html>

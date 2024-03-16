@@ -8,6 +8,7 @@
 <title>Lead Info</title>
 </head>
 <body>
+		<h2>${status}</h2>
         <h2>Lead Info</h2>
         First Name : ${lead.firstName }<br/>
           Last Name : ${lead.lastName }<br/>

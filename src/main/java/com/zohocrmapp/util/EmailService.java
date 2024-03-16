@@ -1,7 +1,9 @@
 package com.zohocrmapp.util;
 
+import com.zohocrmapp.dto.Email;
+
 public interface EmailService {
 	
-	 public void sendEmail(String to , String sub,String email);
+	 public String sendEmail(Email details);
 
 }

@@ -13,5 +13,8 @@ public interface LeadService {
 	public void deleteLeadById(long id);
 
 	public List<Lead> findAllLeads();
+	
+	//mine
+	public Lead findLeadByEmail(String email);
 
 }
